@@ -133,7 +133,7 @@ public class CatalogApplication extends Application<CatalogApplicationConfig> {
     environment.jersey().register(new JsonProcessingExceptionMapper(true));
     environment.jersey().register(new EarlyEofExceptionMapper());
     environment.jersey().register(JsonMappingExceptionMapper.class);
-    environment.healthChecks().register("UserDatabaseCheck", new CatalogHealthCheck(jdbi));
+    environment.healthChecks().register("OpenMetadataServerHealthCheck", new OpenMetadataServerHealthCheck());
     registerResources(catalogConfig, environment, jdbi);
     RoleEvaluator.getInstance().load();
     PolicyEvaluator.getInstance().load();
