@@ -11,7 +11,7 @@
     },
     "description": {
       "description": "Description of Storage entity.",
-      "type": "string"
+      "$ref": "../../type/basic.json#/definitions/markdown"
     },
     "serviceType": {
       "$ref": "../../type/storage.json#/definitions/storageServiceType"

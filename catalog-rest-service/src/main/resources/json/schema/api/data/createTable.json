@@ -11,7 +11,7 @@
     },
     "description": {
       "description": "Description of entity instance.",
-      "type": "string"
+      "$ref": "../../type/basic.json#/definitions/markdown"
     },
     "tableType": {
       "$ref": "../../entity/data/table.json#/definitions/tableType"

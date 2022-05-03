@@ -78,6 +78,10 @@
     "sqlQuery": {
       "description": "SQL query statement. Example - 'select * from orders'.",
       "type": "string"
+    },
+    "markdown": {
+      "description": "Text in Markdown format",
+      "type": "string"
     }
   }
 }

@@ -44,7 +44,7 @@
         },
         "description": {
           "description": "Unique name of the tag category.",
-          "type": "string"
+          "$ref": "../../type/basic.json#/definitions/markdown"
         },
         "version": {
           "description": "Metadata version of the entity.",
@@ -102,7 +102,7 @@
     },
     "description": {
       "description": "Description of the tag category.",
-      "type": "string"
+      "$ref": "../../type/basic.json#/definitions/markdown"
     },
     "version": {
       "description": "Metadata version of the entity.",

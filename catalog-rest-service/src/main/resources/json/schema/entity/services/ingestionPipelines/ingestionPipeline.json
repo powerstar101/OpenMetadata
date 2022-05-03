@@ -131,7 +131,7 @@
     },
     "description": {
       "description": "Description of the Pipeline.",
-      "type": "string"
+      "$ref": "../../../type/basic.json#/definitions/markdown"
     },
     "pipelineType": {
       "$ref": "#/definitions/pipelineType"
